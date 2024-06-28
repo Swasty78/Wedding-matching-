@@ -1,0 +1,4 @@
+xamp control panel 
+apche , mysql start
+http://localhost/phpmyadmin
+http://localhost/finalproject/final_admin.php

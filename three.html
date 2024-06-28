@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>select</title>
+<link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="https://kit.fontawesome.com/8b96c9defd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/main_css.css">
+    <link rel="stylesheet" type="text/css" href="css/home_css.css">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+
+            <div class="topnav" id="myTopnav">
+			  <a class="navbar-brand " href="#"><i class="fas fa-hiking mr-2"></i>FSM EVENT MANAGEMENT</a>
+			  <a href="front.html" >HOME <span class="sr-only"></span></a>
+			  <a href="final_admin.php" >ADMIN <span class="sr-only"></span></a>
+			  <a href="show_pak.php">PACKAGE</a>
+			  <a href="show_pln.php">PLANNER</a>
+			  <a href="show_venue.php">VENUE</a>
+				<div class="right" id="myTopnav">
+					<a href="https://www.facebook.com/farah.meem.5/" class="btn btn-primary btn-sm active mr-2 mb-2"
+								aria-pressed="true">Our Facebook
+							</a>
+					<a href="cus_log.html"
+								class="btn btn-info btn-sm active"> Sign up for booking</a>
+					<a href="cus_log.php"
+								class="btn btn-info btn-sm active">Log In </a>
+				 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i></a>
+				</div>
+			</div>
+
+    </div>
+    </nav>
+<form action="four.php" method="post">
+    <p>
+        <label for="pln_id">Planner_Id:</label>
+        <input type="number" name="pln_id" id="pln_id">
+    </p>
+	<p>
+        <label for="v_name">Venue name:</label>
+        <input type="text" name="v_name" id="name">
+    </p>
+	 <p>
+        <label for="date">Date:</label>
+        <input type="date" name="date" id="date">
+    </p>
+    <a href="four.php"><input type="submit" value="submit"></a>
+    <br>
+    <br>
+</form>
+</body>
+</html>
